@@ -76,11 +76,7 @@ def app():
         x=alt.X('Sales_Mln:Q'),
         y=alt.Y("Brand:N",sort='-x'),
         #column='Sub-Category',
-        color=alt-color('Type:N', legend=alt.Legend(
-        orient='none',
-        legendX=130, legendY=-40,
-        direction='horizontal',
-        titleAnchor='middle'))),
+        color=alt-color('Type:N'),
         tooltip=('Type','Sales_Mln'),
         #facet=alt.Facet('Sub-Category:N', columns=4, sort=sub_category_list),
     ).properties(height=300)
