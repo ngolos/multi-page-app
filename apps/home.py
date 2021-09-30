@@ -17,10 +17,10 @@ def app():
         return df
 
 
-    st.title('Category Overview')
-    """
-    Category overview .
-    """
+    #st.title('Category Overview')
+    #"""
+    #Category overview .
+    #"""
     df = get_data()
 
     #st.write(df)
@@ -86,7 +86,7 @@ def app():
     col1, col2, col3 = st.columns((1,1,2))
     with col1:
         #col1.metric(label="Dogs", value="%.2f" % total_sales_dogs)
-        st.subheader("Sales Split by Functionality:")
+        st.subheader("Split by Functionality:")
         st.altair_chart(chart)
     with col2:
         st.subheader("Top Brands:")
