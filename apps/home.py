@@ -70,16 +70,20 @@ def app():
         color=('Type:N'),
         tooltip=('Type','Mo_Revenue_Mln'),
         #facet=alt.Facet('Sub-Category:N', columns=4, sort=sub_category_list),
-    ).properties(width='container')
+    ).properties(height=300)
 
     chart2=alt.Chart(cat2).mark_bar().encode(
         x=alt.X('Sales_Mln:Q'),
         y=alt.Y("Brand:N",sort='-x'),
         #column='Sub-Category',
-        color=('Type:N'),
+        color=alt-color('Type:N', legend=alt.Legend(
+        orient='none',
+        legendX=130, legendY=-40,
+        direction='horizontal',
+        titleAnchor='middle'))),
         tooltip=('Type','Sales_Mln'),
         #facet=alt.Facet('Sub-Category:N', columns=4, sort=sub_category_list),
-    ).properties(width='container')
+    ).properties(height=300)
 
 
 
