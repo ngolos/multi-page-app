@@ -19,12 +19,12 @@ st.markdown(f""" <style>
         padding-bottom: {padding}rem;
     }} </style> """, unsafe_allow_html=True)
 st.markdown("""
-# Multi-Page App
-This multi-page app is using the [streamlit-multiapps](https://github.com/upraneelnihar/streamlit-multiapps) framework developed by [Praneel Nihar](https://medium.com/@u.praneel.nihar). Also check out his [Medium article](https://medium.com/@u.praneel.nihar/building-multi-page-web-app-using-streamlit-7a40d55fa5b4).
+# Pets Report
+This interactive report is created as an example of explatory report for Amazon's Categories.
 """)
 
 # Add all your application here
-app.add_app("Home", home.app)
+app.add_app("Overview", home.app)
 app.add_app("Data", data.app)
 app.add_app("Model", model.app)
 # The main app
