@@ -4,12 +4,32 @@ from apps import home, data, model # import your app modules here
 
 app = MultiApp()
 
-st.markdown("""
-# Multi-Page App
+st.set_page_config(page_title="Pets Supplements", page_icon="🐾", layout="wide")
 
-This multi-page app is using the [streamlit-multiapps](https://github.com/upraneelnihar/streamlit-multiapps) framework developed by [Praneel Nihar](https://medium.com/@u.praneel.nihar). Also check out his [Medium article](https://medium.com/@u.praneel.nihar/building-multi-page-web-app-using-streamlit-7a40d55fa5b4).
+st.markdown(""" <style>
+#MainMenu {visibility: hidden;}
+footer {visibility: hidden;}
+</style> """, unsafe_allow_html=True)
 
-""")
+padding = 0
+st.markdown(f""" <style>
+    .reportview-container .main .block-container{{
+        padding-top: {padding}rem;
+        padding-right: {padding}rem;
+        padding-left: {padding}rem;
+        padding-bottom: {padding}rem;
+    }} </style> """, unsafe_allow_html=True)
+
+st.title('Pets Report')
+"""
+This is supposed to be a multipage framework.
+- Page 1: Product form - Ingredient based view.
+- Page 2: function based view.
+- Page 3: could be google trends, etc. All the data is based on June'2020 Amazon BSL in Dietaty Supplements Category.
+- Currently I use a singe page mode.
+"""
+
+
 
 # Add all your application here
 app.add_app("Home", home.app)
