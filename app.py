@@ -20,7 +20,7 @@ st.markdown(f""" <style>
     }} </style> """, unsafe_allow_html=True)
 st.markdown("""
 # Pets Report
-This interactive report is created as an example of explatory report for Amazon's Categories.
+This interactive report is created as an example of explatory sales data analysis report for Amazon's Categories.
 """)
 
 # Add all your application here
