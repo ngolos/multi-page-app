@@ -52,9 +52,9 @@ def app():
 
 
 
-    st.header('Explore Sales by Target, Brand and Product')
+    st.header('Sales Split by Functionality, Top Brands and Products')
     target_type = df['Type'].drop_duplicates()
-    target_choice = st.multiselect('Select your target from 3 options:', options=sorted(target_type), default='Dogs')
+    target_choice = st.multiselect('Select your target from 3 options available:', options=sorted(target_type), default='Dogs')
 
     #Filter df based on selection
     filterd_type_df = df[df['Type'].isin(target_choice)]
