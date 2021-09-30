@@ -17,14 +17,14 @@ def app():
         return df
 
 
-    st.title('Pets Report')
+    st.title('Category Overview')
     """
     Category overview .
     """
     df = get_data()
 
     #st.write(df)
-    st.header('Page 1 - Explore the Largest Ingredient Groups for each Product Form')
+    #st.header('Page 1 - Explore the Largest Ingredient Groups for each Product Form')
     #st.dataframe(df)
 
     # TOP KPI's
