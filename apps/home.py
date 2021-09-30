@@ -23,7 +23,7 @@ def app():
     """
     df = get_data()
 
-    st.write(df)
+    #st.write(df)
     st.header('Page 1 - Explore the Largest Ingredient Groups for each Product Form')
     #st.dataframe(df)
 
@@ -70,7 +70,7 @@ def app():
         color=('Type:N'),
         tooltip=('Type','Mo_Revenue_Mln'),
         #facet=alt.Facet('Sub-Category:N', columns=4, sort=sub_category_list),
-    ).properties(height=300)
+    ).properties(width='container', height=300)
 
     chart2=alt.Chart(cat2).mark_bar().encode(
         x=alt.X('Sales_Mln:Q'),
@@ -79,7 +79,7 @@ def app():
         color=('Type:N'),
         tooltip=('Type','Sales_Mln'),
         #facet=alt.Facet('Sub-Category:N', columns=4, sort=sub_category_list),
-    ).properties(height=300)
+    ).properties(width='container', height=300)
 
 
 
