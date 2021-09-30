@@ -32,7 +32,7 @@ def app():
     #st.sidebar.header('User Input Features')
     #product_choice = []
 
-    # product_type = df['Sup_Type'].drop_duplicates()
+    #product_type = df['Sup_Type'].drop_duplicates()
     #product_choice = st.sidebar.multiselect('Select product form:', options=sorted(product_type), default='Capsules')
 
     #category list
@@ -57,10 +57,10 @@ def app():
     with col1:
         #col1.metric(label="Dogs", value="%.2f" % total_sales_dogs)
         col1.metric(label="🐶Dogs", value=(f"$ {total_sales_dogs:,} Mln"))
-        with col2:
-            col2.metric(label="🐶🐱Cats&Dogs", value=(f"$ {total_sales_catsdogs:,} Mln"))
-            with col3:
-                col3.metric(label="🐱Cats", value=(f"$ {total_sales_cats:,} Mln"))
+    with col2:
+         col2.metric(label="🐶🐱Cats&Dogs", value=(f"$ {total_sales_catsdogs:,} Mln"))
+    with col3:
+         col3.metric(label="🐱Cats", value=(f"$ {total_sales_cats:,} Mln"))
     st.write("---")
 
     a=df.groupby(['Sub-Category'])[['Mo_Revenue_Mln']].sum().sort_values('Mo_Revenue_Mln', ascending=False).reset_index()
