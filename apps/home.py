@@ -23,4 +23,4 @@ def app():
     """
     df = get_data()
 
-    df
+    st.write(df)
