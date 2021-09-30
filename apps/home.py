@@ -14,7 +14,7 @@ def app():
         #df = pd.read_csv(url_csv, keep_default_na=False)
         df=pd.read_csv(url_csv, parse_dates=['Date First Available'], keep_default_na=False)
         df[["Price", "Mo. Revenue","D. Sales"]] = df[["Price", "Mo. Revenue","D. Sales"]].apply(pd.to_numeric)
-    return df
+        return df
 
 
     st.title('Pets Report')
