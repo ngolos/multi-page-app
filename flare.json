@@ -1,0 +1,468 @@
+{
+  "name": "flare",
+  "children": [
+    {
+      "name": "Cats",
+      "children": [
+        {
+          "name": "Antioxidants",
+          "children": [
+            {
+              "name": "Chews",
+              "value": 0.014000000000000002
+            },
+            {
+              "name": "Other",
+              "value": 0.019100000000000002
+            },
+            {
+              "name": "Powder",
+              "value": 0.0221
+            }
+          ]
+        },
+        {
+          "name": "Fish Oil Supplements",
+          "children": [
+            {
+              "name": "Chews",
+              "value": 0.0168
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0021
+            },
+            {
+              "name": "Oil",
+              "value": 0.041600000000000005
+            },
+            {
+              "name": "Other",
+              "value": 0.0031999999999999997
+            },
+            {
+              "name": "Powder",
+              "value": 0.016700000000000003
+            }
+          ]
+        },
+        {
+          "name": "Herbal Supplements",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.0025
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0051
+            },
+            {
+              "name": "Oil",
+              "value": 0.0005
+            },
+            {
+              "name": "Other",
+              "value": 0.04650000000000001
+            },
+            {
+              "name": "Powder",
+              "value": 0.0038
+            }
+          ]
+        },
+        {
+          "name": "Misc",
+          "children": [
+            {
+              "name": "Fluid/Gel",
+              "value": 0.005
+            }
+          ]
+        },
+        {
+          "name": "Multivitamins",
+          "children": [
+            {
+              "name": "Chews",
+              "value": 0.14780000000000001
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0233
+            },
+            {
+              "name": "Oil",
+              "value": 0.0009
+            },
+            {
+              "name": "Other",
+              "value": 0.2790000000000001
+            },
+            {
+              "name": "Powder",
+              "value": 0.1446
+            }
+          ]
+        },
+        {
+          "name": "Probiotics",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.0082
+            },
+            {
+              "name": "Chews",
+              "value": 0.019799999999999998
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0015
+            },
+            {
+              "name": "Other",
+              "value": 0.28450000000000003
+            },
+            {
+              "name": "Powder",
+              "value": 0.3938
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Cats&Dogs",
+      "children": [
+        {
+          "name": "Amino Acids",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.0036
+            },
+            {
+              "name": "Oil",
+              "value": 0.0044
+            }
+          ]
+        },
+        {
+          "name": "Antioxidants",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.0572
+            },
+            {
+              "name": "Chews",
+              "value": 0.03679999999999999
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0223
+            },
+            {
+              "name": "Oil",
+              "value": 0.0078
+            },
+            {
+              "name": "Other",
+              "value": 0.0846
+            },
+            {
+              "name": "Powder",
+              "value": 0.009000000000000001
+            }
+          ]
+        },
+        {
+          "name": "Fish Oil Supplements",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.094
+            },
+            {
+              "name": "Chews",
+              "value": 0.1021
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0036
+            },
+            {
+              "name": "Oil",
+              "value": 1.8569
+            },
+            {
+              "name": "Other",
+              "value": 0.025
+            }
+          ]
+        },
+        {
+          "name": "Herbal Supplements",
+          "children": [
+            {
+              "name": "Chews",
+              "value": 0.0008
+            },
+            {
+              "name": "Drops",
+              "value": 0.13649999999999998
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0024
+            },
+            {
+              "name": "Oil",
+              "value": 0.35969999999999996
+            },
+            {
+              "name": "Other",
+              "value": 0.1802
+            }
+          ]
+        },
+        {
+          "name": "Misc",
+          "children": [
+            {
+              "name": "Chews",
+              "value": 0.0117
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.011
+            },
+            {
+              "name": "Other",
+              "value": 0.0228
+            }
+          ]
+        },
+        {
+          "name": "Multivitamins",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.0168
+            },
+            {
+              "name": "Chews",
+              "value": 0.0387
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0075
+            },
+            {
+              "name": "Other",
+              "value": 0.18220000000000003
+            },
+            {
+              "name": "Powder",
+              "value": 0.0721
+            }
+          ]
+        },
+        {
+          "name": "Probiotics",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.0018000000000000002
+            },
+            {
+              "name": "Chews",
+              "value": 0.0207
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0085
+            },
+            {
+              "name": "Other",
+              "value": 0.1385
+            },
+            {
+              "name": "Powder",
+              "value": 0.1416
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dogs",
+      "children": [
+        {
+          "name": "Amino Acids",
+          "children": [
+            {
+              "name": "Chews",
+              "value": 0.0134
+            },
+            {
+              "name": "Other",
+              "value": 0.0036
+            }
+          ]
+        },
+        {
+          "name": "Antioxidants",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.017300000000000003
+            },
+            {
+              "name": "Chews",
+              "value": 0.19380000000000003
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0084
+            },
+            {
+              "name": "Other",
+              "value": 0.1509
+            },
+            {
+              "name": "Powder",
+              "value": 0.0271
+            }
+          ]
+        },
+        {
+          "name": "Fish Oil Supplements",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.0409
+            },
+            {
+              "name": "Chews",
+              "value": 0.9742
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0735
+            },
+            {
+              "name": "Oil",
+              "value": 0.9834999999999998
+            },
+            {
+              "name": "Other",
+              "value": 0.49300000000000005
+            },
+            {
+              "name": "Powder",
+              "value": 0.0031
+            }
+          ]
+        },
+        {
+          "name": "Herbal Supplements",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.03
+            },
+            {
+              "name": "Chews",
+              "value": 0.0528
+            },
+            {
+              "name": "Drops",
+              "value": 0.013900000000000001
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.0005
+            },
+            {
+              "name": "Oil",
+              "value": 0.0084
+            },
+            {
+              "name": "Other",
+              "value": 0.4993000000000001
+            },
+            {
+              "name": "Powder",
+              "value": 0.0042
+            }
+          ]
+        },
+        {
+          "name": "Misc",
+          "children": [
+            {
+              "name": "Chews",
+              "value": 0.0678
+            },
+            {
+              "name": "Other",
+              "value": 0.0511
+            }
+          ]
+        },
+        {
+          "name": "Multivitamins",
+          "children": [
+            {
+              "name": "Capsules",
+              "value": 0.048100000000000004
+            },
+            {
+              "name": "Chews",
+              "value": 0.5484
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.2104
+            },
+            {
+              "name": "Oil",
+              "value": 1.0329
+            },
+            {
+              "name": "Other",
+              "value": 1.0614999999999999
+            },
+            {
+              "name": "Powder",
+              "value": 0.011099999999999999
+            }
+          ]
+        },
+        {
+          "name": "Probiotics",
+          "children": [
+            {
+              "name": "Chews",
+              "value": 2.3002000000000002
+            },
+            {
+              "name": "Fluid/Gel",
+              "value": 0.03560000000000001
+            },
+            {
+              "name": "Other",
+              "value": 0.5648000000000001
+            },
+            {
+              "name": "Powder",
+              "value": 0.31689999999999996
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
