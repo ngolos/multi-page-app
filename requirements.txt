@@ -7,3 +7,5 @@ altair
 numpy
 wordcloud
 requests
+requests
+streamlit-lottie
