@@ -33,7 +33,7 @@ st_lottie(lottie_dog, speed=1, height=150, key="initial")
 
 st.markdown("<h1 style='text-align: center; color: red;'>Pets Report</h1>", unsafe_allow_html=True)
 
-#st.markdown("""
+st.markdown("""
 This interactive report is created as an example of explatory sales data analysis report for Amazon's Categories.
 """)
 
