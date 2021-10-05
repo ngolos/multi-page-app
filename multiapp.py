@@ -41,7 +41,7 @@ class MultiApp:
     def run(self):
         # app = st.sidebar.radio(
         app = st.selectbox(
-            'Navigation',
+            "Select the page you'd like to dive in ⤵️⤵️⤵️",
             self.apps,
             format_func=lambda app: app['title'])
 
