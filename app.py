@@ -29,7 +29,7 @@ def load_lottieurl(url: str):
 
 file_url = 'https://assets2.lottiefiles.com/packages/lf20_v7nRH3.json'
 lottie_dog = load_lottieurl(file_url)
-st_lottie(lottie_dog, speed=1, height=200, key="initial")
+st_lottie(lottie_dog, speed=1, height=150, key="initial")
 
 st.markdown("""
 # Pets Report
