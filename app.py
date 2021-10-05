@@ -10,7 +10,8 @@ st.markdown(""" <style>
 footer {visibility: hidden;}
 </style> """, unsafe_allow_html=True)
 
-padding = 1
+padding = 0.5
+
 st.markdown(f""" <style>
     .reportview-container .main .block-container{{
         padding-top: {padding}rem;
@@ -18,6 +19,17 @@ st.markdown(f""" <style>
         padding-left: {padding}rem;
         padding-bottom: {padding}rem;
     }} </style> """, unsafe_allow_html=True)
+
+def load_lottieurl(url: str):
+    r = requests.get(url)
+    if r.status_code != 200:
+        return None
+    return r.json()
+
+file_url = 'https://assets2.lottiefiles.com/packages/lf20_v7nRH3.json'
+lottie_dog = load_lottieurl(file_url)
+st_lottie(lottie_dog, speed=1, height=200, key="initial")
+
 st.markdown("""
 # Pets Report
 This interactive report is created as an example of explatory sales data analysis report for Amazon's Categories.
