@@ -1,7 +1,8 @@
-
 import streamlit as st
 from multiapp import MultiApp
 from apps import home, data, model # import your app modules here
+from streamlit_lottie import st_lottie
+import requests
 
 app = MultiApp()
 st.set_page_config(page_title="Pets Supplements", page_icon="🐾", layout="wide")
