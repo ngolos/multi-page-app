@@ -84,7 +84,7 @@ def app():
         y=alt.Y("Sub-Category:N", sort=['Fish Oil Supplements','Probiotics','Multivitamins','Herbal Supplements','Antioxidants','Misc','Amino Acids']),
         #column='Sub-Category',
         color=alt.Color('Type:N', legend=alt.Legend(orient="top"), scale=alt.Scale(
-            domain=['Cats', 'Cats&Dogs', "Dogs"],
+            domain=["Cats", 'Cats&Dogs', "Dogs"],
             range=["lightsalmon", 'silver', "lightseagreen"])),
         tooltip=('Type','Mo_Revenue_Mln'),
         #facet=alt.Facet('Sub-Category:N', columns=4, sort=sub_category_list),
@@ -96,7 +96,7 @@ def app():
         #column='Sub-Category',
         color=alt.Color('Type:N', legend=alt.Legend(orient="top"), scale=alt.Scale(
             domain=['Cats', 'Cats&Dogs', "Dogs"],
-            range=["lightsalmon", 'silver', "lightseagreen"])),
+            range=["aqua", 'silver', "orange"])),
         tooltip=('Type','Sales_Mln'),
         #facet=alt.Facet('Sub-Category:N', columns=4, sort=sub_category_list),
     ).properties(height=300)
