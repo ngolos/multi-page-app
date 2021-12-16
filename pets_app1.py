@@ -86,7 +86,7 @@ df = get_data()
 #function_type=['Beauty', 'Body', 'Brain', 'Digest', 'Energy', 'Fitness', 'Immune', 'Joints', 'Multi', 'Stress_Sleep','Weight_Mngm' ]
 #function_choice = st.sidebar.selectbox('Select functionality:', function_type)
 
-st.header('Page 1 - Explore the Largest Ingredient Groups for each Product Form')
+#st.header('Page 1 - Explore the Largest Ingredient Groups for each Product Form')
 #st.dataframe(df)
 
 # TOP KPI's
