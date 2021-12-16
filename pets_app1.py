@@ -64,13 +64,14 @@ def get_data():
 
 
 st.title('Pets Report')
-"""
-This is supposed to be a multipage framework.
-- Page 1: Product form - Ingredient based view.
-- Page 2: function based view.
-- Page 3: could be google trends, etc. All the data is based on June'2020 Amazon BSL in Dietaty Supplements Category.
-- Currently I use a singe page mode.
-"""
+#"""
+
+#This is supposed to be a multipage framework.
+#- Page 1: Product form - Ingredient based view.
+#- Page 2: function based view.
+#- Page 3: could be google trends, etc. All the data is based on June'2020 Amazon BSL in Dietaty Supplements Category.
+#- Currently I use a singe page mode.
+#"""
 df = get_data()
 
 
