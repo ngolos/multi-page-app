@@ -63,7 +63,7 @@ def get_data():
     return df
 
 
-st.title('Pets Report')
+#st.title('Pets Report')
 #"""
 
 #This is supposed to be a multipage framework.
