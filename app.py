@@ -1,6 +1,6 @@
 import streamlit as st
 from multiapp import MultiApp
-from apps import home, data, model # import your app modules here
+from apps import home, data #, model # import your app modules here
 from streamlit_lottie import st_lottie
 import requests
 
@@ -39,7 +39,7 @@ st.markdown("<p style='text-align: center; color: black;'>This interactive repor
 
 # Add all your application here
 app.add_app("Overview", home.app)
-app.add_app("Data", data.app)
-app.add_app("Model", model.app)
+#app.add_app("Data", data.app)
+#app.add_app("Model", model.app)
 # The main app
 app.run()
