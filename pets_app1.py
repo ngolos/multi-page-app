@@ -50,7 +50,7 @@ st.markdown(f""" <style>
         padding-bottom: {padding}rem;
     }} </style> """, unsafe_allow_html=True)
 
-url_csv = "https://raw.githubusercontent.com/ngolos/ns-streamlit/main/july_pets4.csv"
+url_csv = "https://raw.githubusercontent.com/ngolos/multi-page-app/main/july_pets4.csv"
 
 @st.cache
 def get_data():
@@ -63,15 +63,14 @@ def get_data():
     return df
 
 
-#st.title('Pets Report')
-#"""
-
-#This is supposed to be a multipage framework.
-#- Page 1: Product form - Ingredient based view.
-#- Page 2: function based view.
-#- Page 3: could be google trends, etc. All the data is based on June'2020 Amazon BSL in Dietaty Supplements Category.
-#- Currently I use a singe page mode.
-#"""
+st.title('Pets Report')
+"""
+This is supposed to be a multipage framework.
+- Page 1: Product form - Ingredient based view.
+- Page 2: function based view.
+- Page 3: could be google trends, etc. All the data is based on June'2020 Amazon BSL in Dietaty Supplements Category.
+- Currently I use a singe page mode.
+"""
 df = get_data()
 
 
@@ -86,7 +85,7 @@ df = get_data()
 #function_type=['Beauty', 'Body', 'Brain', 'Digest', 'Energy', 'Fitness', 'Immune', 'Joints', 'Multi', 'Stress_Sleep','Weight_Mngm' ]
 #function_choice = st.sidebar.selectbox('Select functionality:', function_type)
 
-#st.header('Page 1 - Explore the Largest Ingredient Groups for each Product Form')
+st.header('Page 1 - Explore the Largest Ingredient Groups for each Product Form')
 #st.dataframe(df)
 
 # TOP KPI's
